@@ -388,7 +388,8 @@
     padding-right: 10px;
   }
 }.u-section-3 {
-  background-image: linear-gradient(0deg, rgba(241,124,14,0.5), rgba(241,124,14,0.5)), url("images/2c26175acae066093ac39a0cb256703dfe997a34be75a11b2a1fc1950d1bd2e56909327e151e455239c099dcc0ef8e11f190284ac7b89237c4be3c_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(241,124,14,0.5), rgba(241,124,14,0.5)), url("images/_pollution.gif");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -402,10 +403,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-3 {
-    background-position: 50% 50%;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 344px;
   }
@@ -661,8 +658,8 @@
 }
 
 .u-section-5 .u-gallery-inner-1 {
-  grid-template-columns: repeat(5, auto);
-  grid-gap: 0;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 0px 0px;
 }
 
 .u-section-5 .u-over-slide-1 {
@@ -701,9 +698,13 @@
   }
 
   .u-section-5 .u-gallery-1 {
-    height: 224px;
+    height: 231px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-5 .u-gallery-inner-1 {
+    grid-template-columns: repeat(5, auto);
   }
 }
 
@@ -713,7 +714,7 @@
   }
 
   .u-section-5 .u-gallery-1 {
-    height: 506px;
+    height: 590px;
     grid-template-columns: repeat(3, auto);
     margin-right: initial;
     margin-left: initial;
@@ -730,7 +731,7 @@
   }
 
   .u-section-5 .u-gallery-1 {
-    height: 782px;
+    height: 996px;
     grid-template-columns: repeat(2, auto);
     margin-right: initial;
     margin-left: initial;
@@ -747,7 +748,7 @@
   }
 
   .u-section-5 .u-gallery-1 {
-    height: 1640px;
+    height: 2090px;
     grid-template-columns: repeat(1, auto);
     margin-bottom: -43px;
     margin-right: initial;
